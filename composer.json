@@ -1,0 +1,15 @@
+{
+    "name": "fdelval/eventfun",
+    "authors": [
+        {
+            "name": "Felix Delval",
+            "email": "fdelval@magento.com"
+        }
+    ],
+    "require": {
+        "simple-bus/message-bus": "^2.2"
+    },
+    "autoload": {
+        "psr-4" : { "EventFun\\" : "src" }
+    }
+}
